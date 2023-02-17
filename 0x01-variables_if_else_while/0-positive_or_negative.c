@@ -1,6 +1,6 @@
-#include <stdio.h>
+#include <stdlib.h>
 #include <time.h>
-#include <unistdout.h>
+#include <stdio.h>
 /**
  *  main - A program that execute a positve anything than negative nothing
  *  Return: 0 (success)
