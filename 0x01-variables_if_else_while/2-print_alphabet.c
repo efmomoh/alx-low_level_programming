@@ -1,28 +1,16 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdlio.h>
 /**
- * main - A Program that prints the last diggit of the number stored in a varable
+ * main - A Program that prints alphabets in lower case
  * Return: 0 (success)
  */
-int main (void)
+int main(void)
 {
-	int n;
+	char lc;
 
-	srand(time(0));
-	n = rand() - RAND-MAX / 2;
-	if (n > 5)
+	for (lc = 'a'; lc <= 'z'; lc++)
 	{
-		printf("and is greater than 5\n", n);
+		putchar(lc);
 	}
-	else if (n == 0)
-	{
-		printf("and is 0\n", n);
-	}
-	else  (n < 6 != 0)
-	{
-		printf("and is less than 6 and not 0\n", n);
-	}
+	putchar('\n');
 	return (0);
 }
-
