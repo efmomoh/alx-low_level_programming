@@ -1,7 +1,8 @@
-#include <stdlio.h>
+#include <stdio.h>
 /**
  * main - A Program that prints alphabets in lower case
  * Return: 0 (success)
+ *
  */
 int main(void)
 {
