@@ -1,7 +1,7 @@
 #include <stdio.h>
-#include <stdlib.h>
 /**
- * main - A C program that prints all combination of single digits
+ * main - A C program that prints all combination of single number of base 10
+ * starting from 0 followed by a new line
  * Return: 0 (success)
  */
 int main(void)
