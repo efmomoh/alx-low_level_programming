@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main - a program that prints lwer case aplphabet in reverse order
- * Retur: 0 (success)
+ * main - A C program that prints lower case alphabets in reverse order
+ * Return: 0 (success)
  */
 int main(void)
 {
