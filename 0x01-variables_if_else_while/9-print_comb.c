@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - A program that prints a combination of alpha_numeric characters
+ * main - A C program that prints all combination of single digits
  * Return: 0 (success)
  */
 int main(void)
