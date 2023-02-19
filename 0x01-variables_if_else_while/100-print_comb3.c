@@ -11,17 +11,17 @@ int main(void)
 	int c;
 	int n = 0;
 
-	while (n < 98)
+	while (n < 89)
 	{
 		c = 0;
-		while (c < 98)
+		while (c < 89)
 		{
 			if (n != c && n < c)
 			{
 				putchar(c + '0');
 				putchar(n + '0');
 
-				if (c + n != 98)
+				if (c + n != 89)
 				{
 					putchar(',');
 					putchar(' ');
