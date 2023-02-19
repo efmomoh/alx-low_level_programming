@@ -12,13 +12,13 @@ int main(void)
 	int n;
 	int m = 0;
 
-	while (m < 10)
+	while (m < 100)
 	{
 		n = 0;
-		while (n < 10)
+		while (n < 100)
 		{
 			c = 0;
-			while (c < 10)
+			while (c < 100)
 			{
 				if (c != m && m != n && m < n && n < c)
 				{
