@@ -8,36 +8,28 @@
  */
 int main(void)
 {
-	int c = 0;
-	int n;
-	int m;
+	int c, n;
 
-	int c2;
-	int n2;
-	int m2;
-
-	while (c <= 98)
+	for (c  = 0; c < 100; c++)
 	{
-		n = (c / 10 + '0');
-		m = (c % 10 + '0');
-
-		if (c < c2)
+		for (n = 0; n < 100; n++)
 		{
-			putchar(n);
-			putchar(m);
-			putchar(c2);
-			putchar(n2);
-			putchar(m2);
-
-			if (c != 98)
+			if (c < n)
 			{
-				putchar(',');
+				putchar((c / 10) + 48);
+				putchar((c % 10) + 48);
 				putchar(' ');
+				putchar((n / 10) + 48);
+				putchar((n % 10) + 48);
+				if (c != 98 || n != 99)
+				{
+					putchar(',');
+					putchar(' ');
+
+				}
 			}
 		}
-		c2++;
 	}
-	c++;
 	putchar('\n');
 	return (0);
 }
