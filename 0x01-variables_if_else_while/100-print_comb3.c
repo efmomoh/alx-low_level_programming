@@ -7,29 +7,23 @@
  */
 int main(void)
 {
-	int c;
-	int n = 0;
+	int c, n;
 
-	while (n < 89)
+	for (c = 48; c <= 56; c++)
 	{
-		c = 0;
-		while (c < 89)
+		for (n = 49; n <= 57; n++)
 		{
-			if (n != c && n < c)
+			if (n > c)
 			{
-				putchar(c + '0');
-				putchar(n + '0');
-
-				if (c + n != 17)
+				putchar(c);
+				putchar(n);
+				if (c != 56 || n != 57)
 				{
 					putchar(',');
 					putchar(' ');
 				}
 			}
-
-			c++;
 		}
-		n++;
 	}
 	putchar('\n');
 	return (0);
