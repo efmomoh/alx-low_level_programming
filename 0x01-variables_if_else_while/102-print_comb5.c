@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * main - A C Program that prints all possible combinations of
  * two-digit numbers
@@ -24,7 +25,7 @@ int main(void)
 		{
 			putchar(n);
 			putchar(m);
-			putchar(' ');
+			putchar(c2);
 			putchar(n2);
 			putchar(m2);
 
