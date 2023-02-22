@@ -1,12 +1,11 @@
 #include "main.h"
-#include <unistdio.h>
 /**
  *  main -  prints  _putchar on a new line and
  *  Return: 0 always
  *
  */
 
-int main(void);
+int main(void)
 {
 	_putchar('_');
 	_putchar('p');
