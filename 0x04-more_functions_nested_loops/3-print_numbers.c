@@ -1,8 +1,7 @@
 #include "main.h"
 /**
- * print_numbers - check code 0 to 9
- * void: check code
- * Return: nothing returns
+ * print_numbers - prints numbers between 0 to 9.
+ * Return: no return.
  */
 void print_numbers(void)
 {
@@ -10,7 +9,7 @@ void print_numbers(void)
 
 	for (ch = 48; ch < 58; ch++)
 	{
-		_putchar(ch);
-		_putchar('\n');
+	_putchar(ch);
 	}
+	_putchar('\n');
 }
